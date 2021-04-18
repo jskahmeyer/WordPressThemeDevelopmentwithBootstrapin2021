@@ -8,14 +8,39 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/img/favicon.ico">
     <title>Bootstrap to WordPress</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/eacf935cf7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- HEADER  -->
-    <header>
-
+    <header class="site-header bg-dark" role="banner">
+        <div class="container navbar-dark bg-dark">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <a href="/" class="navbar-brand"><img src="assets/img/logo.png" alt="Bootstrap to WordPress"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="resources.html">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+        </div>
     </header>
 
     <!-- HERO -->
